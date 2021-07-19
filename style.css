@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    /* height: 9vh; */
+    display: flex;
+    background-color:rgb(235, 152, 104);
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+nav img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.icon{
+    margin-left: 100px;
+}
+.icon li{
+    list-style: none;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    padding: 10px;
+}
+.links{
+    display: flex;
+    padding: 8px;
+    margin-right: 250px;
+}
+.links li{
+    list-style: none;
+    padding: 10px;
+    color: white;
+}
+.icon  :hover{
+    color: red;
+}
+.links  :hover{
+    color: red;
+}
+#red{
+    color: red;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* background-color: salmon; */
+}
+.background{
+    background-image: url(./luis-vidal-FodEsaNZs48-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 94vh;
+}
+.heading li{
+    color: rgb(245, 109, 19);
+    list-style: none;
+    font-size: x-large;
+    margin: 15PX;
+    font-weight: bold;
+    font-family: 'Lexend Mega', sans-serif;
+    background-color: rgba(65, 105, 225, 0.808);
+    border-radius: 89px;
+    padding: 3px;
+}
+.heading :hover{
+    color: whitesmoke;
+    background-color: rgb(226, 36, 36);
+}
+.heading :active{
+    color: chartreuse;
+}
+.bold{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    margin: 15px;
+    font-family: 'Lato', sans-serif;
+}
+.bold li{
+    list-style: none;
+    text-align: center;
+}
+.butt{
+    margin: 15px;
+}
+.butt span a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 14px;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+.butt span :hover{
+    color: red;
+}
+.butt button a{
+    text-decoration: none;
+    color: red;
+}
+.butt button{
+    background-color: black;
+    border: 1px solid red;
+    padding: 14px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+.butt :hover{
+    background-color: white;
+    opacity: 1;
+}
+footer{
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: center;
+}
+.leftt{
+    margin: 40px;
+}
+.leftt h2{
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 15px;
+}
+.leftt li{
+    list-style: none;
+    color: white;
+    padding: 15px;
+    font-size: larger;
+    font-weight: 500;
+}
+.leftt p{
+    color: gray;
+    font-size: large;
+}
+button{
+    background-color: red;
+    opacity: 0.3;
+    border: 0px;
+    padding: 15px;
+    margin: 15px;
+    transition: opacity 1s ease in;
+}
+
+button:hover{
+    opacity: 1;
+}
+.leftt button a{
+    text-decoration: none;
+    color: white;
+}
+.rightt{
+    margin: 30px;
+}
+.rightt h2{
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 10px;
+}
+.rightt li{
+    color: white;
+    font-size: large;
+    padding: 10px;
+    list-style: none;
+}
+.rightt p{
+    color: gray;
+    padding: 10px;
+}
+main{
+    background-color: rgba(red, green, blue, alpha);
+}
