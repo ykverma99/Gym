@@ -49,6 +49,9 @@ nav img{
 #red{
     color: red;
 }
+li > img{
+    cursor: pointer;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -61,6 +64,7 @@ main{
     background-image: url(./images/luis-vidal-FodEsaNZs48-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     height: 94vh;
 }
 .heading li{
@@ -73,6 +77,7 @@ main{
     background-color: rgba(65, 105, 225, 0.808);
     border-radius: 89px;
     padding: 3px;
+    transition: all 0.5s ease;
 }
 .heading :hover{
     color: whitesmoke;
@@ -92,6 +97,9 @@ main{
     list-style: none;
     text-align: center;
 }
+button{
+    cursor: pointer;
+}
 .butt{
     margin: 15px;
 }
@@ -101,6 +109,7 @@ main{
     border: 1px solid black;
     padding: 14px;
     background-color: rgba(0, 0, 0, 0.788);
+    transition: all 0.4s ease-in;
 }
 .butt span :hover{
     color: red;
@@ -114,7 +123,7 @@ main{
     border: 1px solid red;
     padding: 14px;
     margin: 10px;
-    transition: background-color 0.3s ease;
+    transition: all 0.5s ease-in;
 }
 .butt :hover{
     background-color: white;
